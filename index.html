@@ -1,13 +1,10 @@
+<!DOCTYPE html>
 <html>
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  
-  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ashbot</title>
+    
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://ashbot.me" />
   <meta property="og:title" content="Ashbot" />
@@ -21,20 +18,35 @@
   <meta property="twitter:description" content="Ashbot's website" />
   <meta property="twitter:image" content="https://cdn.discordapp.com/attachments/741635940589502485/781784634395459624/Adobe_Post_20201127_1032320.052145535007532606.png" />
 
+    
+  <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+  <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/tippy.js@6/dist/backdrop.css" rel="stylesheet">
+  <link href="https://unpkg.com/tippy.js@6/animations/shift-away.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  
 </head>
 
-<body class="bg-gray-900 text-gray-500 body-font">
-  <div class="animate__animated animate__backInDown container mx-auto flex px-5 py-24 items-center justify-center flex-col">
-    <img class="lg:w-2/6 md:w-3/6 w-4/6 mb-10 object-cover object-center rounded-xl shadow-xl" alt="avatar" src="https://cdn.discordapp.com/avatars/581075056956801056/150306b0262cfbd35a05e81bbfbd50e6.png?size=1024">
-    <div class="text-center lg:w-2/3 w-full">
-      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-100">Ashbot</h1>
-      <p class="mb-8 leading-relaxed">It is a candidate bot for your server with its beautiful design and dazzling prfp.</p>
-      <div class="flex justify-center">
-        <a href="/add" class="mr-4 inline-flex text-white bg-gradient-to-r from-purple-400 to-red-500 hover:from-purple-300 to-gray-800 border-0 py-2 px-6 focus:outline-none rounded-xl text-xl shadow-xl"><i class="fas fa-plus pr-2 mt-1"></i>Add bot</a>
-        <a href="/support" class="inline-flex text-gray-700 bg-gray-300 border-0 py-2 px-6 focus:outline-none hover:bg-gray rounded-xl text-xl shadow-xl"><i class="fas fa-question pr-2 mt-1"></i>Support</a>
+<body>
+  <div class="min-h-screen bg-indigo-900 text-white flex px-5 py-24 items-center justify-center flex-col text-center">
+    
+    <div class="mx-auto rounded-lg shadow-2xl bg-gray-900 border border-gray-400 border-opacity-25 p-8 md:mx-36 md:rounded-3xl md:border-2">
+      
+      <img class="w-44 h-44 rounded-xl shadow-xl mx-auto mb-5" src="https://cdn.discordapp.com/avatars/581075056956801056/150306b0262cfbd35a05e81bbfbd50e6.png?size=1024"></img>
+      <span class="text-3xl md:text-4xl bold">AshBot</span>
+      <span class="md:text-2xl text-gray-500">#4127</span>
+      
+      <p class="opacity-60 mt-5 mb-5">
+      Simple multipurpose discord bot carefully designed for your server. You can use many features for free, no voting required, no premium. It deserves to be on your server with music, moderation, fun commands and cute avatar.
+      </p>
+      
+      <a href="/add" class="inviteButton mr-4 inline-flex bg-yellow-500 py-2 px-4 rounded-lg text-xl"><i class="fas fa-plus pr-2 mt-1"></i>Add bot</a>
+      <a href="/support" class="supportButton inline-flex bg-pink-600 py-2 px-4 hover:bg-gray rounded-lg text-xl"><i class="fas fa-question pr-2 mt-1"></i>Support</a>
+      <a href="/github" class="githubButton inline-flex bg-gray-800 py-2 px-4 mt-4 mx-4 hover:bg-gray rounded-lg text-xl"><i class="fab fa-github my-1"></i></a>
       </div>
-    </div>
   </div>
+  <script src="index.js"></script>
 </body>
-
 </html>
