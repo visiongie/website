@@ -15,4 +15,4 @@ and there's a button click here for faster setup:
 
 ## Contributing
 
-Feel free to contribute this projec, you can open a pr on [here](https://github.com/ashbot/website/compare)
+Feel free to contribute this project, you can open a pr on [here](https://github.com/ashbot/website/compare)
