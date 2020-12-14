@@ -1,5 +1,18 @@
-# Ashbot's website
+## Ashbot
 
-![png](https://user-images.githubusercontent.com/50950966/100423477-1ed1d980-309d-11eb-8f98-6b6f424b78a8.png)
+**A simple website for my [Discord](https://ashbot.me/add) bot**
 
-**Feel free to contribute this project**
+## Setup
+
+You can use this website with [Vercel](https://vercel.com)
+and there's a button click here for faster setup:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/project?template=https://github.com/ashbot/website)
+
+## Author
+
+- [Bae](https://github.com/baen)
+
+## Contributing
+
+Feel free to contribute this project, you can open a pr on [here](https://github.com/ashbot/website/compare)
