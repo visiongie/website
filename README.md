@@ -1,11 +1,12 @@
-## Ashbot
+# @ashbot/website
 
-**A simple website for my [Discord](https://ashbot.me/add) bot**
+**Simple website for my [Discord](https://ashbot.me/add) bot**
 
-## Setup
+[Demo](https://ashbot.me)
 
-You can use this website with [Vercel](https://vercel.com)
-and there's a button click here for faster setup:
+## Deployment
+
+You can use [Vercel](https://vercel.com) for free hosting
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/project?template=https://github.com/ashbot/website)
 
@@ -15,4 +16,14 @@ and there's a button click here for faster setup:
 
 ## Contributing
 
-Feel free to contribute this project, you can open a pr on [here](https://github.com/ashbot/website/compare)
+Feel free to contribute this project, you can open a pull request on [here](https://github.com/ashbot/website/compare)
+
+## Tools
+
+- [TailwindCSS](https://tailwindcss.com)
+- [Tippy.js](https://atomiks.github.io/tippyjs)
+- [Font Awesome](https://fontawesome.com)
+
+## License
+
+- [MIT](https://github.com/ashbot/website/blob/main/LICENSE)
